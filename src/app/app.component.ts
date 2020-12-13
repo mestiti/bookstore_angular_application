@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'yasminemestiri';
+  username:string;
+
+  ngOnInit(){
+    this.username = '';
+ }
 }
